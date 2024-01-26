@@ -1,0 +1,52 @@
+
+.home-section {
+    position: relative;
+    z-index: -1;
+    background-image: var(--image-gradient), url(../../assets/536245.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+  }
+  
+  .myAvtar {
+    justify-content: center !important;
+    padding-top: 9em !important;
+   
+  }
+  
+  .img {
+    width: 500px;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: -150px;
+    margin-top: -300px;
+    border: solid #073342 10px;
+  }
+
+  @media (max-width: 767px) {
+    .myAvtar {
+      padding-top: 2em !important;
+      padding-bottom: 2em !important;
+    }
+  }
+  
+  .home-about-section {
+    position: relative;
+    padding-bottom: 70px !important;
+    padding-top: 70px !important;
+  }
+  
+  .home-about-description {
+    color: white !important;
+    padding-top: 100px !important;
+    padding-bottom: 20px !important;
+    text-align: center;
+  }
+  
+  .home-about-body {
+    padding-top: 50px;
+    font-size: 1.2em !important;
+    text-align: left;
+  }
+  

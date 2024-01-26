@@ -1,0 +1,77 @@
+.resume-section {
+    position: relative !important;
+    padding-top: 110px !important;
+    padding-bottom: 30px !important;
+  }
+  
+.btn {
+  justify-content: center;
+  margin-top: 150px;
+  height: 80px;
+  font-size: 50px;
+  margin-left: 0px;
+  padding-bottom: 70px;
+}
+  
+
+  .project-heading {
+    text-align: center;
+  }
+  
+  .tech-icons {
+    font-size: 4.5em !important;
+    margin: 15px !important;
+    padding: 10px !important;
+    opacity: 0.93 !important;
+    border: 3px solid #073342 !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+    border-radius: 5px !important;
+    display: table !important;
+    box-shadow: 6px 8px 6px 10px #042732 !important;
+    overflow: hidden !important;
+    transition: all 0.4s ease 0s !important;
+  }
+
+
+  @media (max-width: 767px) {
+    .tech-icons {
+      margin: 10px !important;
+    }
+  }
+  
+  .tech-icons:hover {
+    transform: scale(1.05) !important;
+    overflow: hidden !important;
+    border: 5px solid #13ffeb !important;
+  
+  }
+  .tech-icon-images {
+    padding: 20px !important;
+    line-height: 1.6 !important;
+  }
+
+  
+  @media (max-width: 767px) {
+    .resume-left {
+      padding-right: 15px !important;
+      padding-left: 15px !important;
+    }
+  
+    .resume-right {
+      padding-right: 15px !important;
+      padding-left: 15px !important;
+    }
+  }
+  .resume .resume-title {
+    font-size: 2em;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+ 
+  
+ 
+  
+  
