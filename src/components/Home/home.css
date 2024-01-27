@@ -1,5 +1,5 @@
 
-.home-section {
+  .home-section {
     position: relative;
     z-index: -1;
     background-image: var(--image-gradient), url(../../assets/536245.jpg);
