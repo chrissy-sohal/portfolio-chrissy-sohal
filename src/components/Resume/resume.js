@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import "./resume.css";
-import pdf from "../../assets/src/assets/Sohal_Chrissy_Resume2024 - Copy.pdf";
+import pdf from "../../assets/Sohal_Chrissy_Resume2024 - Copy.pdf";
 import Techstack from "./icons";
 import { AiOutlineDownload } from "react-icons/ai";
 import { pdfjs } from "react-pdf";

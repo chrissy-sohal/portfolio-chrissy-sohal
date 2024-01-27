@@ -1,136 +1,26 @@
- 
-// Importing files from Material-UI
-import React, { useState } from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
-import Typography from "@material-ui/core/Typography";
-import MenuIcon from "@material-ui/icons/Menu";
-import Button from "@material-ui/core/Button";
-import useMediaQuery from "@mui/material/useMediaQuery";
- 
-import {
-    List,
-    ListItem,
-    ListItemText,
-    Collapse,
-} from "@mui/material";
-import ExpandLess from "@mui/icons-material/ExpandLess";
-import ExpandMore from "@mui/icons-material/ExpandMore";
- 
-// Using Inline Styling
-const useStyles = makeStyles((theme) => ({
-    root: {
-        flexGrow: 1,
-    },
-    menuButton: {
-        marginRight: theme.spacing(2),
-    },
-}));
+import React from 'react'
+import './navbar.css'
+
+
  
 // Exporting Default Navbar to the App.js File
 export default function Navbar() {
-    const classes = useStyles();
-    const small = useMediaQuery("(max-width:600px)");
-    const full = useMediaQuery("(min-width:600px)");
-       
-    const [open, setOpen] = useState(false);
- 
-    const handleClick = () => {
-        setOpen(!open);
-    };
- 
-    return (
-        <div className={classes.root}>
-            <AppBar position="static">
-                <Toolbar variant="dense">
-                    {small && (
-                        <>
-                            <List>
-                                <ListItem button>
-                                    <Button
-                                        onClick={
-                                            handleClick
-                                        }
-                                    >
-                                        <MenuIcon />
-                                        {open ? (
-                                            <ExpandLess />
-                                        ) : (
-                                            <ExpandMore />
-                                        )}
-                                    </Button>
-                                    <Typography
-                                        variant="h6"
-                                        color="inherit"
-                                        onClick={() => {
-                                            console.log(
-                                                "logo clicked"
-                                            );
-                                            setOpen(false);
-                                        }}
-                                    >
-                                        Geeks for Geeks
-                                    </Typography>
-                                </ListItem>
-                                <Collapse
-                                    in={open}
-                                    timeout="auto"
-                                    unmountOnExit
-                                >
-                                    <List
-                                        component="div"
-                                        disablePadding
-                                    >
-                                        <ListItem button>
-                                            <ListItemText primary="Home" />
-                                        </ListItem>
-                                        <ListItem button>
-                                            <ListItemText primary="About" />
-                                        </ListItem>{" "}
-                                        <ListItem button>
-                                            <ListItemText primary="Gallery" />
-                                        </ListItem>
-                                        <ListItem button>
-                                            <ListItemText primary="Checkout" />
-                                        </ListItem>
-                                        <ListItem button>
-                                            <ListItemText primary="Contact" />
-                                        </ListItem>
-                                    </List>
-                                </Collapse>
-                            </List>
-                        </>
-                    )}
- 
-                    {full && (
-                        <>
-                            <Typography
-                                variant="h6"
-                                color="inherit"
-                            >
-                                Geeks for Geeks
-                            </Typography>
-                            <Button color="inherit">
-                                Home
-                            </Button>
- 
-                            <Button color="inherit">
-                                About
-                            </Button>
-                            <Button color="inherit">
-                                Gallery
-                            </Button>
-                            <Button color="inherit">
-                                Checkout
-                            </Button>
-                            <Button color="inherit">
-                                Contact
-                            </Button>
-                        </>
-                    )}
-                </Toolbar>
-            </AppBar>
-        </div>
-    );
+   
+return(
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#">Home <span class="sr-only"></span></a>
+      <a class="nav-item nav-link" href="#About">About</a>
+      <a class="nav-item nav-link" href="#Projects">Projects</a>
+      <a class="nav-item nav-link" href="#Resume">Resume</a>
+      <a class="nav-item nav-link" href="#Contact">Contact</a>
+    </div>
+  </div>
+</nav> 
+);
+    
 }

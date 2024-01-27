@@ -1,4 +1,4 @@
-# Portfolio with React
+# Chrissy Sohal's Portfolio 
   
 
 ## Description
