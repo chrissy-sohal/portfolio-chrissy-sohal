@@ -18,7 +18,7 @@ A single-page React portfolio of my individual and group projects.
 
 Clone repo and run `npm start`
 
-Or simply follow the following link to the deployed page: https://chrissy-sohal.github.io/portfolio-react/
+Or simply follow the following link to the deployed page: https://chrissy-sohal.github.io/portfolio-chrissy-sohal/
 
 ## Usage:
 
