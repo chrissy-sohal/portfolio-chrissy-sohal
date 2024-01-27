@@ -1,7 +1,26 @@
 {
   "name": "portfolio-chrissy-sohal",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "Personal Portfolio for updated projects",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrissy-sohal/portfolio-chrissy-sohal.git"
+  },
+  "author": "Chrissy Sohal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://chrissy-sohal.github.io/portfolio-chrissy-sohal/"
+  },
+  "homepage": "https://chrissy-sohal.github.io/portfolio-chrissy-sohal/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -23,14 +42,7 @@
     "react-tsparticles": "^2.12.2",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+ 
   "eslintConfig": {
     "extends": [
       "react-app",
