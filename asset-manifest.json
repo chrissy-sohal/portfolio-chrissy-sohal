@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.7bc38a54.css",
-    "main.js": "/static/js/main.de05aa29.js",
-    "static/js/787.b08c5aee.chunk.js": "/static/js/787.b08c5aee.chunk.js",
-    "static/media/homepage.jpg": "/static/media/homepage.fd01632f399a0e9e21b7.jpg",
-    "static/media/b88f983b-06ae-4405-82f7-265ecc17e8d5.png": "/static/media/b88f983b-06ae-4405-82f7-265ecc17e8d5.e79d50df90a58e964c0a.png",
-    "static/media/vecteezyBeerDayBackgroundfv0621_generated.jpg": "/static/media/vecteezyBeerDayBackgroundfv0621_generated.62cfc0b6376c8951a5e0.jpg",
-    "static/media/chrissy-photo.jpg": "/static/media/chrissy-photo.b12a4a9988340274ef24.jpg",
-    "static/media/tracking-employee-computer-activity-1600.jpg": "/static/media/tracking-employee-computer-activity-1600.ba4239268a851dee7ee6.jpg",
-    "static/media/Sohal_Chrissy_Resume2024 - Copy.pdf": "/static/media/Sohal_Chrissy_Resume2024 - Copy.28b9af01e36eed702831.pdf",
-    "static/media/536245.jpg": "/static/media/536245.666f1a2d062c9561666f.jpg",
-    "static/media/screenshot.png": "/static/media/screenshot.e62e1361b4a0a36bfb24.png",
-    "static/media/team-company-profile-template.jpeg": "/static/media/team-company-profile-template.a3ce42f0331472d1612f.jpeg",
-    "index.html": "/index.html",
-    "main.7bc38a54.css.map": "/static/css/main.7bc38a54.css.map",
-    "main.de05aa29.js.map": "/static/js/main.de05aa29.js.map",
-    "787.b08c5aee.chunk.js.map": "/static/js/787.b08c5aee.chunk.js.map"
+    "main.css": "/portfolio-chrissy-sohal/static/css/main.45a4595b.css",
+    "main.js": "/portfolio-chrissy-sohal/static/js/main.301c8bc1.js",
+    "static/js/787.b08c5aee.chunk.js": "/portfolio-chrissy-sohal/static/js/787.b08c5aee.chunk.js",
+    "static/media/homepage.jpg": "/portfolio-chrissy-sohal/static/media/homepage.fd01632f399a0e9e21b7.jpg",
+    "static/media/b88f983b-06ae-4405-82f7-265ecc17e8d5.png": "/portfolio-chrissy-sohal/static/media/b88f983b-06ae-4405-82f7-265ecc17e8d5.e79d50df90a58e964c0a.png",
+    "static/media/vecteezyBeerDayBackgroundfv0621_generated.jpg": "/portfolio-chrissy-sohal/static/media/vecteezyBeerDayBackgroundfv0621_generated.62cfc0b6376c8951a5e0.jpg",
+    "static/media/chrissy-photo.jpg": "/portfolio-chrissy-sohal/static/media/chrissy-photo.b12a4a9988340274ef24.jpg",
+    "static/media/tracking-employee-computer-activity-1600.jpg": "/portfolio-chrissy-sohal/static/media/tracking-employee-computer-activity-1600.ba4239268a851dee7ee6.jpg",
+    "static/media/Sohal_Chrissy_Resume2024 - Copy.pdf": "/portfolio-chrissy-sohal/static/media/Sohal_Chrissy_Resume2024 - Copy.28b9af01e36eed702831.pdf",
+    "static/media/536245.jpg": "/portfolio-chrissy-sohal/static/media/536245.666f1a2d062c9561666f.jpg",
+    "static/media/screenshot.png": "/portfolio-chrissy-sohal/static/media/screenshot.e62e1361b4a0a36bfb24.png",
+    "static/media/team-company-profile-template.jpeg": "/portfolio-chrissy-sohal/static/media/team-company-profile-template.a3ce42f0331472d1612f.jpeg",
+    "index.html": "/portfolio-chrissy-sohal/index.html",
+    "main.45a4595b.css.map": "/portfolio-chrissy-sohal/static/css/main.45a4595b.css.map",
+    "main.301c8bc1.js.map": "/portfolio-chrissy-sohal/static/js/main.301c8bc1.js.map",
+    "787.b08c5aee.chunk.js.map": "/portfolio-chrissy-sohal/static/js/787.b08c5aee.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bc38a54.css",
-    "static/js/main.de05aa29.js"
+    "static/css/main.45a4595b.css",
+    "static/js/main.301c8bc1.js"
   ]
 }
